@@ -7,7 +7,12 @@
 /* import global styling */
 @import url(./partials/_global.css);
 
-/* start navigation */
+/* Smooth Scrolling & Anchor */
+html {
+  scroll-behavior: smooth;
+}
+
+s/* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;
@@ -43,7 +48,7 @@
 /* Banner Area */
 
 .site-main .site-banner {
-  background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+  background: url(../img/banner/home-banner-vic.png) no-repeat 0% 50%;
 }
 
 .site-main .site-banner .site-title h3 {

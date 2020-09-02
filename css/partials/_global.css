@@ -4,6 +4,10 @@
   font: normal bold 50px/ 72px var(--roboto);
 }
 
+.my-name {
+  font: normal bold 50px/ 72px var(--montserrat);
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }

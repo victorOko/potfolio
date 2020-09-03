@@ -12,7 +12,37 @@ html {
   scroll-behavior: smooth;
 }
 
-s/* start navigation */
+/* Scroll to top Button */
+
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  background-color: #ddd;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #ddf;
+  color: #000;
+}
+
+/* End of Scrol to top Button */
+
+/* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;

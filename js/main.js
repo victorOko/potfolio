@@ -15,7 +15,8 @@ $(document).ready(function () {
 
   $(".project-area .button-group #btn1").trigger("click");
 
-  $(".project-area .grid .test-popup-link").magnificPopup({
+  $(".project-area .grid").magnificPopup({
+    delegate: "a",
     type: "image",
     gallery: { enabled: true },
   });
